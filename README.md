@@ -27,6 +27,22 @@ wget https://github.com/MystenLabs/sui-genesis/raw/main/testnet/genesis.blob
 wget https://github.com/MystenLabs/sui-genesis/raw/main/devnet/genesis.blob
 ```
 
+### Start
+```
+git clone https://github.com/jiOnederfull/2023-dsrv-sarangbang-workshop.git
+```
+```
+docker compose up
+```
+```
+docker compose up -d
+```
+
+### Stop
+```
+docker compose down
+```
+
 ### Metrics
 ```
 http://localhost:9184/metrics
